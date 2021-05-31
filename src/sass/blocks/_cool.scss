@@ -1,0 +1,11 @@
+.time {
+    display: block;
+}
+.time::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 150px;
+    background: #fff;
+    z-index: 10;
+}

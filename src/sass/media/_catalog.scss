@@ -1,0 +1,57 @@
+// @media (max-width: 1200px) {
+
+// }
+// ** ///////////////////////////////////////////////////////////
+
+@media (max-width: 992px) {
+    .catalog {
+        &__tab {
+            &:hover {
+                box-shadow: none;
+                // pointer-events: none;
+            }
+        }
+    }
+}
+
+// ** ///////////////////////////////////////////////////////////
+
+@media (max-width: 767px) {
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    } 
+}
+
+// ** ///////////////////////////////////////////////////////////
+
+@media (max-width: 576px) {
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+        &__tab {
+            width: 320px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+// @media (max-width: 500px) {
+
+// }
+
+// ** ///////////////////////////////////////////////////////////
+@media (max-width: 320px) {
+    .catalog {
+
+        &__tab {
+            width: 260px;
+        }
+        &-item {
+            width: 290px;
+        }
+    }
+}
